@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" ng-app='contentEditable'>
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="bower_components/angular.min.js"></script>
+	<script src="js/contentEditable.js"></script>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body >
+	<div class ="row">
+		<div class="col-sm-3"></div>
+		<div class="col-sm-6 main-content">
+			<div make-editable>
+				<p>This sample shows how the content will become editable when the directive rendered.When teh user clicks EDIT button , the text is editable and changes to red color. When he clicks SAVE , it is changed to non editabe content with text color back to  black.</p>
+			</div>
+		</div>
+		<div class="col-sm-3"></div>
+	</div>
+</body>
+</html>
